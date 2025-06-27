@@ -1,3 +1,0 @@
-n=(input('Enter number:'))
-biggest_digit=max(n)
-print('The biggest digit in number is:',biggest_digit)
