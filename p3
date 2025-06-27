@@ -1,7 +1,0 @@
-n=(input('Enter a Number:'))
-prime_digit=['2','3','5','7']
-count=0
-for digit in n:
-    if digit in prime_digit:
-        count+=1
-print('Number of Prime digits in number:',count)
