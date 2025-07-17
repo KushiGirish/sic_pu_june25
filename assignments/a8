@@ -1,0 +1,4 @@
+#Sum of Odd Placed Even Digits
+num = input("Enter a number: ")
+sum_odd_pos_even_digits = sum(int(num[i]) for i in range(0, len(num), 2) if int(num[i]) % 2 == 0)
+print("Sum of odd placed even digits:", sum_odd_pos_even_digits)
